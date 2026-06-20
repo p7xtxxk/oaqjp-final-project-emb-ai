@@ -1,11 +1,3 @@
-"""
-Emotion Detection Server
-
-This script defines a Flask-based server for performing emotion detection on user-provided text.
-
-Author(Learner): [NoorAldin]
-"""
-
 from flask import Flask, render_template, request
 from EmotionDetection.emotion_detection import emotion_detector
 from EmotionDetection.emotion_detection import emotion_predictor
